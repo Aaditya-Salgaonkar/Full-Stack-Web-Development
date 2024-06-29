@@ -1,0 +1,42 @@
+
+
+body{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%)!important;
+    margin-top: 150px !important;
+}
+
+input[type=button]
+{
+    background-color: brown;
+    transition: transform .2s;
+}
+
+input[type=button]:hover
+{
+    transform: scale(1.1);
+}
+
+input[type=text]
+{
+    text-align: center;
+    width: 100%;
+}
+
+.success{
+    border: 3px solid green !important;
+}
+
+.error{
+    border: 3px solid red !important;
+}
+
+small{
+    color: red;
+    font-weight: bolder;
+    margin: 5px;
+    float:left !important;
+}
+
+.pos{
+    text-align: center;
+}

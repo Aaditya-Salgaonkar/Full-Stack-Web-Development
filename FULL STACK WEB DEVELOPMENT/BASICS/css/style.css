@@ -1,0 +1,95 @@
+body{
+
+    background-image: url('https://bernardmarr.com/wp-content/uploads/2022/04/The-10-Biggest-Technology-Trends-That-Will-Transform-The-Next-Decade.jpg');
+    background-size: cover;
+}
+h1 {
+    padding: 5px 0px 40px 50px;
+    color: #fffffb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform .2s;
+}
+#logo{
+    padding: 25px 25px 25px 5px;
+    width: 100px;
+    float: right;
+    transition:transform .2s;
+
+    
+}
+
+#logo:hover{
+    transform:scale(1.1);
+}
+
+.format{
+    opacity: 0.8;
+    border-radius: 10px;
+    margin: 0px 50px 0px 50px;
+    display: grid; 
+    padding: 10px 10px 10px 10px;  
+    background-color: azure;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:transform .2s;
+
+}
+.format:hover{
+    transform:scale(1.05);
+}
+
+.format1:hover{
+    transform:scale(1.05);
+}
+
+#contact_details{
+    border-radius: 10px;
+    margin-left: 650px;
+    display: grid; 
+    text-align: center;
+    padding: 10px 10px 10px 10px;  
+    background-color: azure;
+    max-width: 200px;
+    max-height: 500px;
+    align-items: center;
+    justify-content: center;
+    transition:transform .2s;
+}
+
+#contact_details:hover{
+    transform:scale(1.05);
+}
+
+h1:hover{
+    color: lightgoldenrodyellow;
+    margin-left: 10px;
+    transform:scale(1.05);
+}
+
+.format1{
+    margin-left: 50px;
+    margin-right: 1200px;
+    display: flex;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-radius: 10px;
+    transition:transform .2s;
+}
+
+#banner{
+    margin: 25px;
+    background-color: antiquewhite;
+    padding: 25px 25px 25px 25px;
+    max-width: fit-content;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform .2s;
+    text-align: center;
+    
+}
+
+#banner:hover{
+    transform:scale(1.05);
+}
